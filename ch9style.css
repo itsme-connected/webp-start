@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap");
+
+body {
+  width: 300px;
+  height: 700px;
+  border: 5px solid;
+  border-color: #05c7ae;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.upper-bar {
+  width: 300px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.upper-bar span {
+  font-family: "Rubik", sans-serif;
+}
+
+.main-icon {
+  display: flex;
+  width: 300px;
+  height: 150px;
+}
+
+.photobox {
+  background-color: #ffbd11;
+  border-radius: 10%;
+  border: 2px solid;
+  width: 130px;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.photo-text {
+  width: 130px;
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.play-name {
+  font-size: 27px;
+}
+
+.play-singer {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.btns {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.play-btn {
+  width: 150px;
+  height: 50px;
+  border: 2px solid;
+  box-shadow: 0px 3px;
+  border-radius: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.play-btn span {
+  margin-left: 10px;
+  font-family: "Rubik", sans-serif;
+}
+
+.heart,
+.plus {
+  width: 50px;
+  height: 50px;
+  border: 2px solid;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  box-shadow: 0px 3px;
+}
+
+.music-list {
+  width: 300px;
+  height: 300px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.music {
+  width: 300px;
+  height: 75px;
+  display: flex;
+}
+
+.color {
+  width: 50px;
+  height: 50px;
+  border-radius: 20%;
+  border: 2px solid;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.music-text {
+  width: 230px;
+  height: 75px;
+}
+
+.music-text-line {
+  width: 200px;
+  height: 30px;
+}
+
+.music-name {
+  font-family: "Rubik", sans-serif;
+}
+
+.music-singer {
+  font-size: 12px;
+  font-family: "Rubik", sans-serif;
+  color: gray;
+}
+
+.Matargasti .color {
+  background-color: red;
+}
+
+.Attitude .color {
+  background-color: pink;
+}
+
+.Try-Everything .color {
+  background-color: blue;
+}
+
+.Sunflower .color {
+  background-color: #00c6ad;
+}
