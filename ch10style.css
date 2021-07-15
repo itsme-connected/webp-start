@@ -1,0 +1,248 @@
+@import "reset.css";
+body {
+  width: 340px;
+  height: 770px;
+}
+
+.upper-bar {
+  width: 340px;
+  height: 100px;
+  background-color: #ffce33;
+}
+
+.book-day__stars {
+  color: #ffce33;
+}
+
+.upper-bar__line {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 5px;
+  width: 340px;
+  height: 20px;
+  box-sizing: border-box;
+  position: relative;
+  top: 10px;
+}
+
+.upper-bar__line span {
+  font-weight: bold;
+}
+
+.upper-bar__line input::placeholder {
+  color: #ebebeb;
+}
+
+.upper-bar__search {
+  width: 320px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin: 0 10px;
+  position: relative;
+  top: 50px;
+  box-shadow: 0px 3px #f5f5f5;
+}
+
+.upper-bar__glass {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 50px;
+}
+
+.fa-search {
+  color: #ebebeb;
+}
+
+.upper-bar__search input {
+  border: none;
+}
+
+.blank {
+  width: 340px;
+  height: 25px;
+}
+
+.main {
+  width: 320px;
+  height: 615px;
+  margin: 10px 10px;
+}
+
+.book-day {
+  width: 320px;
+  height: 20px;
+  margin: 20px 0px;
+}
+
+.book-day h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.book-day__image {
+  width: 100px;
+  height: 160px;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.book-day__info {
+  width: 320px;
+  height: 160px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+}
+
+.book-day__right {
+  width: 200px;
+  height: 160px;
+  margin: 0 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.book-day__line {
+  width: 200px;
+  height: 32px;
+}
+
+.book-day__name h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.book-day__author span {
+  font-weight: bold;
+  opacity: 0.2;
+}
+
+.fa-star {
+  margin: 0 5pxw;
+  color: #ffce33;
+}
+
+.book-top {
+  height: 20px;
+  width: 320px;
+  margin: 20px 0px;
+}
+
+.book-top h1 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.top-books {
+  display: flex;
+  overflow-x: hidden;
+}
+
+.top-info {
+  width: 70px;
+  height: 130px;
+  margin-right: 25px;
+}
+
+.top-image {
+  width: 70px;
+  height: 100px;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.stars {
+  height: 30px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popular-authors {
+  height: 20px;
+  width: 320px;
+  margin: 15px 0px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.popular-info {
+  margin: 15px 0px;
+  height: 130px;
+  width: 320px;
+  display: flex;
+}
+
+.popular__photo {
+  height: 130px;
+  width: 105px;
+  margin-right: 25px;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popular__text {
+  height: 130px;
+  width: 190px;
+}
+
+.popular__text__element {
+  width: 190px;
+  height: 130px;
+}
+
+.author-name {
+  width: 190px;
+  height: 35px;
+  margin: 10px 0;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.author-discription {
+  width: 190px;
+  height: 55px;
+  font-size: 14px;
+  color: #dfdfdf;
+  margin-top: 20px;
+}
+
+.book-day__bookmark {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #ffce33;
+  border-color: #ffce33;
+}
+
+.book-day__Now {
+  height: 35px;
+  width: 100px;
+  background-color: #0d0d0d;
+  color: white;
+  border-radius: 10px;
+  margin-left: 40px;
+  /* border-color: #0d0d0d; */
+}
+
+.book-day__btn {
+  border-color: #f7f7f7;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+}
