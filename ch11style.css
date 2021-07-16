@@ -1,0 +1,257 @@
+@import "reset.css";
+
+.body {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.page {
+  width: 270px;
+  height: 580px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 30px 15px 10px 15px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  border-width: 5px;
+  margin-right: 50px;
+  box-shadow: 0 0 5px;
+  margin-bottom: 10px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.profile img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  box-shadow: 5px 5px 10px rgb(165, 161, 161);
+}
+
+.upper-bar {
+  height: 15px;
+  width: 230px;
+  margin: 0 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile__name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.profile__discript {
+  font-size: 13px;
+  font-weight: bold;
+  opacity: 0.3;
+}
+
+.first-page__btns {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 190px;
+  height: 35px;
+}
+
+.music-info {
+  width: 200px;
+  height: 40px;
+  margin: 12px 10px;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.music-info img {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  display: box;
+  margin-right: 15px;
+}
+
+.music-list__dots {
+  position: absolute;
+  right: 0;
+}
+
+.shuffle {
+  width: 90px;
+  height: 35px;
+  background-color: black;
+  border-radius: 15px;
+  color: white;
+}
+
+.followers {
+  width: 90px;
+  height: 35px;
+  background-color: white;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 0 6px gray;
+}
+
+.music-list__discript {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.music-list__name {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.music-list__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.play-bar {
+  height: 50px;
+  width: 245px;
+  background-color: #222222;
+  border-radius: 20px;
+  color: white;
+  display: flex;
+}
+
+.play-bar__text {
+  width: 130px;
+  height: 50px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: space-between;
+}
+
+.play-bar__btns {
+  width: 55px;
+  height: 50px;
+  margin: 0 20px;
+  display: flex;
+  /* text-align: space-between; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.play-bar__discript {
+  font-size: 13px;
+  margin-bottom: 10px;
+  opacity: 0.5;
+}
+
+.play-bar__name {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.big-profile img {
+  width: 190px;
+  height: 190px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px gray;
+}
+
+.big-profile {
+  width: 190px;
+  height: 280px;
+  padding: 60px 30px 30px 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.big-profile__text {
+  width: 190px;
+  height: 40px;
+  padding: 50px 0 30px 0;
+}
+
+.big-profile__name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.big-profile__discript {
+  font-size: 12px;
+  opacity: 0.3;
+}
+
+.playing-bar {
+  width: 220px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.playing-bar__time {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+}
+
+.second-page__play-bar {
+  margin: 40px 0px;
+  width: 220px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-recycle {
+  opacity: 0.3;
+}
+
+.fa-random {
+  opacity: 0.3;
+}
+
+.playing-bar__range {
+  color: black;
+  background-color: black;
+}
+
+.playing-bar__range {
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: black;
+  outline: none;
+  height: 3px;
+}
+
+.playing-bar__range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: black;
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.playing-bar__range::-moz-slider-thumb {
+  -moz-appearance: none;
+  background: black;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
