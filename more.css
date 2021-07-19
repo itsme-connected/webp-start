@@ -1,0 +1,74 @@
+.more-things {
+  width: 90%;
+  height: 250px;
+  border-bottom: 1px solid #a8a8a8;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.more-things i {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.more-things__element {
+  width: 25%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.more-things__element span {
+  opacity: 0.3;
+  font-weight: bold;
+}
+
+.more-things__element__red-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #fe6229;
+  position: absolute;
+  top: 15px;
+  right: 25px;
+}
+
+.suggestions {
+  height: 165px;
+  width: 90%;
+  padding-top: 30px;
+}
+
+.suggestions__element img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.suggestions__text {
+  display: box;
+  font-weight: bold;
+}
+
+.suggestions__elements {
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+}
+
+.suggestions__element {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.suggestions__element span {
+  font-weight: bold;
+  opacity: 0.3;
+}

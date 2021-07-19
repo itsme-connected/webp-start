@@ -1,0 +1,188 @@
+#chat-screen {
+  background-color: #abc0d1;
+  height: 300vh;
+}
+
+#chat-screen .phone-bar {
+  position: fixed;
+  z-index: 2;
+  background-color: #abc0d1;
+}
+
+#chat-screen .three-part-bar {
+  position: fixed;
+  z-index: 2;
+  top: 30px;
+  background-color: #abc0d1;
+}
+.search-in-chat {
+  margin-right: 15px;
+}
+
+.chatting__day-bar {
+  background-color: #92a4b2;
+  color: white;
+  border-radius: 15px;
+  height: 35px;
+  padding: 0px 15px;
+  justify-content: center;
+  line-height: 35px;
+  margin-top: 110px;
+}
+
+.chat-profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.chat {
+  margin-top: 25px;
+  height: 75px;
+  width: 90%;
+  display: flex;
+}
+
+.chat-content-time {
+  display: flex;
+}
+
+.chat-name {
+  display: flex;
+  font-weight: bold;
+  opacity: 0.3;
+  padding-bottom: 5px;
+}
+
+.chat-content {
+  background-color: white;
+  border-radius: 15px;
+  padding: 15px;
+  font-weight: bold;
+  border-top-left-radius: 0;
+}
+
+.chat-time {
+  display: flex;
+  align-items: flex-end;
+  padding: 0 10px;
+  font-weight: bold;
+  opacity: 0.3;
+}
+
+.chat-mine .chat-content-time {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 50px;
+}
+
+.chat-mine {
+  justify-content: flex-end;
+}
+
+.chat-mine .chat-content {
+  border-radius: 15px;
+  border-top-right-radius: 0;
+  background-color: #fde500;
+}
+
+.write-bar {
+  width: 100%;
+  height: 65px;
+  position: fixed;
+  bottom: 0;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.write-bar__main {
+  background-color: #f8f8f8;
+  border: 2px solid rgb(231, 231, 231);
+  border-radius: 20px;
+  width: 90%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.plus-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid gray;
+  color: gray;
+  font-size: 40px;
+  margin: 0 20px;
+}
+
+.plus {
+  position: relative;
+  top: -10px;
+}
+
+.write-bar__main input {
+  width: 80%;
+  height: 60%;
+  font-size: 20px;
+  margin-left: 10px;
+  border: none;
+  background-color: #f8f8f8;
+}
+
+.write-bar__main input:focus {
+  outline: none;
+}
+
+.up-button {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+  background-color: #fde500;
+}
+
+.write-bar .fa-smile {
+  font-size: 30px;
+  margin-right: 10px;
+  opacity: 0.3;
+}
+
+@keyframes hide-btns {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes hide-btns-reverse {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.write-bar:focus-within .plus-button,
+.write-bar:focus-within .fa-smile,
+.write-bar:focus-within .up-button {
+  animation: hide-btns 1s linear forwards;
+}
+
+.write-bar .plus-button,
+.write-bar .fa-smile,
+.write-bar .up-button {
+  animation: hide-btns-reverse 1s linear forwards;
+}
+
+.write-bar:focus-within .write-bar__main {
+  width: 98%;
+  transform: translateX(-15%);
+  /* width가 안늘어나는 이유를 모르겠음 ㅠㅠ */
+}

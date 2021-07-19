@@ -1,0 +1,149 @@
+.service {
+  width: 90%;
+  height: 145px;
+  border-bottom: 1px solid #a8a8a8;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service__element {
+  width: 25%;
+  height: 100%;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.service__element i,
+.service__element span {
+  display: box;
+}
+
+.service__element i {
+  margin-bottom: 25px;
+}
+
+.fa-address-book {
+  position: relative;
+  top: 10px;
+}
+
+.recommended-friends {
+  width: 90%;
+  height: 290px;
+  border-bottom: 1px solid #a8a8a8;
+  position: relative;
+}
+
+.recommended-friends-text,
+.recommended-friends-no {
+  opacity: 0.3;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.recommended-friends-text {
+  position: absolute;
+  left: -10px;
+  top: 5%;
+}
+
+.recommended-friends-no {
+  position: absolute;
+  top: 60%;
+  right: 10%;
+}
+
+.open-chat__profile img {
+  width: 115px;
+  height: 115px;
+  border-radius: 10px;
+}
+
+.open-chat {
+  width: 90%;
+  height: 320px;
+}
+
+.open-chat__element {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  border-bottom: 1px solid #a8a8a8;
+  font-weight: bold;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.open-chat__bar {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-top: 20px;
+  opacity: 0.3;
+  font-weight: bold;
+}
+
+.open-chat__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.open-chat__text span {
+  margin-bottom: 15px;
+}
+
+.open-chat__active {
+  color: red;
+}
+
+.open-chat__hashtag,
+.open-chat .fa-users,
+.open-chat__members {
+  opacity: 0.3;
+}
+
+.open-chat__profile {
+  position: relative;
+}
+
+.heart-num {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background-color: rgb(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 15px;
+}
+
+.heart-num i {
+  margin-right: 5px;
+}
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: red;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
+.heart-num:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
+}

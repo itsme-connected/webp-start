@@ -4,9 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>kakao clone coding by connected</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="phone-bar">
+      <div class="phone-bar__left phone-bar__item">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="phone-bar__center phone-bar__item">
+        <span>18:43</span>
+      </div>
+      <div class="phone-bar__right phone-bar__item">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <div class="start-page-text">
+      <h1 class="welcome">Welcome to KakaoTalk</h1>
+      <p>If you have a Kakao Account,</p>
+      <p>log in with your email or phone number.</p>
+    </div>
+    <form action="mainpage.html" method="get" class="start-page-input">
+      <input
+        class="id"
+        type="text"
+        required
+        placeholder="Email or phone number"
+      />
+      <input class="password" required type="password" placeholder="Password" />
+      <input type="submit" class="Login" value="Login" />
+      <input type="submit" class="SignUp" value="Sign Up" />
+      <a class="find-idpassword" href="#">Find Kakao Account or Password</a>
+    </form>
+    <div id="no-mobile">
+      <span>Your screen is too big ㅠㅠ</span>
+    </div>
+
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"

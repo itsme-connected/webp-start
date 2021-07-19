@@ -1,0 +1,31 @@
+.go-chat {
+  color: inherit;
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.not-checked-message {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #fe6229;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+  opacity: 1;
+  text-align: center;
+  line-height: 25px;
+}
+
+.talk-time {
+  opacity: 0.3;
+}
+
+.chats-profile-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}

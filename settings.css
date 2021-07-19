@@ -1,0 +1,74 @@
+.three-part-bar {
+  width: 90%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.three-part-bar__element {
+  width: 33%;
+}
+
+.three-part-bar__two {
+  text-align: center;
+}
+
+.three-part-bar__three {
+  text-align: end;
+}
+
+.setting-part-one {
+  height: 250px;
+  width: 90%;
+  border-bottom: 1px solid rgb(182, 182, 182);
+}
+
+.setting-part-two {
+  height: 520px;
+  width: 90%;
+}
+
+.setting-element {
+  width: 100%;
+  height: 75px;
+  border-bottom: 1px solid rgb(241, 241, 241);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 23px;
+  font-weight: bold;
+  position: relative;
+}
+
+.setting-element i {
+  margin-right: 20px;
+}
+
+.version {
+  opacity: 0.3;
+}
+
+.new-icon {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #fe6229;
+  color: white;
+  position: absolute;
+  left: 30%;
+  top: 30px;
+  font-size: 13px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.theme-type {
+  opacity: 0.3;
+}
+
+.back {
+  color: inherit;
+}
